@@ -1,0 +1,37 @@
+# Example order report (fictional — do not use as real data)
+
+This file shows the shape of a saved order report. It is a **made-up example**:
+"ExampleBrickStore" is not a real seller, and these are not real purchases.
+
+It ends in `.md.txt`, not `.md`, on purpose — `src/generate.py` only reads
+`inventory/orders/*.md`, so this example is never counted toward what you own.
+To try the tracking loop for real, save a copy as a new `.md` file in this
+folder (or just paste your own report from a shopping session) and run `make`.
+
+This is what you'd paste in after a browser agent finishes shopping BrickLink
+for you — the exact block from the end of `prompts/order-prompt-bricklink-*.md`,
+section 5:
+
+```lego-workshop-order
+site: bricklink
+store: ExampleBrickStore
+date: 2026-07-15
+part: 6628 qty 3 color black cond U unit 0.20
+part: 2736 qty 3 color black cond N unit 0.20
+part: 18651 qty 2 color black cond U unit 0.12
+substituted: 89201 -> 30648 qty 4 color black cond U unit 0.25
+skipped: 88517 reason not carried by this store
+shipping: 4.99
+total: 7.43
+```
+
+What happens when a file like this is named `.md` and `make` runs:
+
+- Each `part:` line credits that part id with the quantity bought.
+- The `substituted:` line credits part `89201` (not `30648`) — because `30648`
+  is `89201`'s listed alternate in `data/parts.json`. Buying the alternate
+  counts as owning the part the book actually asks for.
+- The `skipped:` line is recorded but credits nothing — that part is still on
+  your buy list.
+- `prompts/`, `exports/`, `checklists/`, and `STATUS.md` all regenerate with
+  those quantities subtracted from what's still needed.
