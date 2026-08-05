@@ -574,8 +574,15 @@ def write_pab_csv(scope, owned):
 def write_checklist(scope, owned):
     rows = rows_for_scope(scope, owned)
     title = scope_title(scope)
+
+    # Ordinary bricks/plates ("any-lego-bin" source) get their own final
+    # section, same as the order prompts -- so a checklist-only parent gets
+    # the "check at home first" warning too, not just prompt readers.
+    shop_rows = [r for r in rows if r["source"] != "any-lego-bin"]
+    bin_rows = [r for r in rows if r["source"] == "any-lego-bin"]
+
     by_group = {}
-    for r in sorted(rows, key=lambda r: (r["group"], r["name"])):
+    for r in sorted(shop_rows, key=lambda r: (r["group"], r["name"])):
         by_group.setdefault(r["group"], []).append(r)
 
     L = [f"# Checklist — {title}", "",
@@ -585,10 +592,10 @@ def write_checklist(scope, owned):
 
     grand_pieces = grand_lots = 0
     grand_cost = 0.0
-    for group in sorted(by_group):
-        group_rows = by_group[group]
-        L.append(f"## {group}")
-        L.append("")
+
+    def _section(heading_lines, group_rows):
+        nonlocal grand_pieces, grand_lots, grand_cost
+        L.extend(heading_lines)
         sub_pieces = 0
         sub_cost = 0.0
         for r in group_rows:
@@ -596,17 +603,28 @@ def write_checklist(scope, owned):
                       f"(~${r['line']:.2f})")
             sub_pieces += r["qty"]
             sub_cost += r["line"]
-        L += ["", f"*Subtotal: {sub_pieces} pieces, ${sub_cost:.2f}*", ""]
+        L.extend(["", f"*Subtotal: {sub_pieces} pieces, ${sub_cost:.2f}*", ""])
         grand_pieces += sub_pieces
         grand_cost += sub_cost
         grand_lots += len(group_rows)
 
-    if not by_group:
+    for group in sorted(by_group):
+        _section([f"## {group}", ""], by_group[group])
+
+    if bin_rows:
+        _section(
+            ["## Check your household LEGO bin first", "",
+             "Ordinary bricks and plates — any LEGO tub almost certainly has "
+             "most of these. Buy only what you can't find at home.", ""],
+            sorted(bin_rows, key=lambda r: r["name"]))
+
+    if not rows:
         L += [f"Nothing left to buy for {title} — every part is covered! "
               "\U0001f389", ""]
     else:
         L += [f"**Grand total remaining: {grand_pieces} pieces across "
-              f"{grand_lots} lots, ~${grand_cost:.2f}**", ""]
+              f"{grand_lots} lots, ~${grand_cost:.2f}** (including the "
+              "household-bin section above, if any)", ""]
 
     (CHECKLISTS / f"checklist-{scope}.md").write_text("\n".join(L))
     return grand_lots

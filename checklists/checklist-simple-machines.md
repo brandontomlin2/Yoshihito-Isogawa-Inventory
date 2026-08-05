@@ -137,7 +137,22 @@
 
 *Subtotal: 124 pieces, $27.98*
 
-## System bricks
+## Wheels
+
+- [ ] 55982 — Rim 18x14 ×6 (~$1.26)
+- [ ] 56145 — Rim 30x20 ×4 (~$2.40)
+- [ ] 92402 — Tyre 30.4x14 (or #30391) ×6 (~$1.20)
+- [ ] 44309 — Tyre 43.2x22 ×4 (~$2.80)
+- [ ] 2815 — Tyre for wedge-belt wheel ×6 (~$1.50)
+- [ ] 11957 — Tyre, motorcycle ×1 (~$1.50)
+- [ ] 89201 — Tyre, small (or #30648) ×4 (~$1.20)
+- [ ] 88517 — Wheel, spoked ×1 (~$1.50)
+
+*Subtotal: 32 pieces, $13.36*
+
+## Check your household LEGO bin first
+
+Ordinary bricks and plates — any LEGO tub almost certainly has most of these. Buy only what you can't find at home.
 
 - [ ] 3004 — Brick 1x2 ×2 (~$0.16)
 - [ ] 3001 — Brick 2x4 ×2 (~$0.30)
@@ -161,17 +176,4 @@
 
 *Subtotal: 24 pieces, $3.40*
 
-## Wheels
-
-- [ ] 55982 — Rim 18x14 ×6 (~$1.26)
-- [ ] 56145 — Rim 30x20 ×4 (~$2.40)
-- [ ] 92402 — Tyre 30.4x14 (or #30391) ×6 (~$1.20)
-- [ ] 44309 — Tyre 43.2x22 ×4 (~$2.80)
-- [ ] 2815 — Tyre for wedge-belt wheel ×6 (~$1.50)
-- [ ] 11957 — Tyre, motorcycle ×1 (~$1.50)
-- [ ] 89201 — Tyre, small (or #30648) ×4 (~$1.20)
-- [ ] 88517 — Wheel, spoked ×1 (~$1.50)
-
-*Subtotal: 32 pieces, $13.36*
-
-**Grand total remaining: 451 pieces across 132 lots, ~$108.43**
+**Grand total remaining: 451 pieces across 132 lots, ~$108.43** (including the household-bin section above, if any)
