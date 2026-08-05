@@ -1,0 +1,719 @@
+{
+  "slug": "clever-contraptions",
+  "meta": {
+    "key": "cc",
+    "title": "Clever Contraptions",
+    "short": "CC",
+    "models": 106,
+    "isbn": "978-1-7185-0170-6",
+    "publisher": "No Starch Press",
+    "author": "Yoshihito Isogawa",
+    "buy_links": [
+      "https://nostarch.com/nonelectric_clevercontraptions",
+      "https://www.amazon.com/LEGO-Technic-Non-Electric-Models-Contraptions/dp/1718501706"
+    ],
+    "blurb": "106 mechanisms that combine those ideas \u2014 grabbers, walkers, launchers and linkages."
+  },
+  "parts": [
+    {
+      "part": "4265c",
+      "qty": 13,
+      "page": 178
+    },
+    {
+      "part": "3713",
+      "qty": 6,
+      "page": 178
+    },
+    {
+      "part": "2780",
+      "qty": 20,
+      "page": 178
+    },
+    {
+      "part": "3673",
+      "qty": 14,
+      "page": 178
+    },
+    {
+      "part": "43093",
+      "qty": 12,
+      "page": 178
+    },
+    {
+      "part": "3749",
+      "qty": 4,
+      "page": 178
+    },
+    {
+      "part": "6558",
+      "qty": 7,
+      "page": 178
+    },
+    {
+      "part": "32556",
+      "qty": 5,
+      "page": 178
+    },
+    {
+      "part": "11214",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "18651",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "32002",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "4274",
+      "qty": 12,
+      "page": 178
+    },
+    {
+      "part": "6628",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "2736",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "32062",
+      "qty": 10,
+      "page": 178
+    },
+    {
+      "part": "4519",
+      "qty": 7,
+      "page": 178
+    },
+    {
+      "part": "6587",
+      "qty": 4,
+      "page": 178
+    },
+    {
+      "part": "3705",
+      "qty": 5,
+      "page": 178
+    },
+    {
+      "part": "87083",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "32073",
+      "qty": 5,
+      "page": 178
+    },
+    {
+      "part": "3706",
+      "qty": 8,
+      "page": 178
+    },
+    {
+      "part": "44294",
+      "qty": 4,
+      "page": 178
+    },
+    {
+      "part": "3707",
+      "qty": 6,
+      "page": 178
+    },
+    {
+      "part": "60485",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "3737",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "3708",
+      "qty": 7,
+      "page": 178
+    },
+    {
+      "part": "10928",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "6589",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "32270",
+      "qty": 5,
+      "page": 178
+    },
+    {
+      "part": "94925",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "32198",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "32269",
+      "qty": 4,
+      "page": 178
+    },
+    {
+      "part": "87407",
+      "qty": 1,
+      "page": 178
+    },
+    {
+      "part": "3648",
+      "qty": 2,
+      "page": 178
+    },
+    {
+      "part": "32498",
+      "qty": 1,
+      "page": 178
+    },
+    {
+      "part": "3649",
+      "qty": 3,
+      "page": 178
+    },
+    {
+      "part": "99009c01",
+      "qty": 1,
+      "page": 178
+    },
+    {
+      "part": "3743",
+      "qty": 5,
+      "page": 179
+    },
+    {
+      "part": "4716",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "32072",
+      "qty": 6,
+      "page": 179
+    },
+    {
+      "part": "4185",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "98585",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "731c05",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "99012",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "3711",
+      "qty": 40,
+      "page": 179
+    },
+    {
+      "part": "3873",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "62520c01",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "92693c01",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "6575",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "x71",
+      "qty": 3,
+      "page": 179
+    },
+    {
+      "part": "x37",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "x90",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "2815",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "55982",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "89201",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "92402",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "56145",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "44309",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "88517",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "11957",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "6538c",
+      "qty": 9,
+      "page": 179
+    },
+    {
+      "part": "18654",
+      "qty": 1,
+      "page": 179
+    },
+    {
+      "part": "62462",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "32054",
+      "qty": 3,
+      "page": 179
+    },
+    {
+      "part": "32039",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "6553",
+      "qty": 2,
+      "page": 179
+    },
+    {
+      "part": "32013",
+      "qty": 4,
+      "page": 179
+    },
+    {
+      "part": "32034",
+      "qty": 3,
+      "page": 179
+    },
+    {
+      "part": "32016",
+      "qty": 6,
+      "page": 179
+    },
+    {
+      "part": "32192",
+      "qty": 8,
+      "page": 179
+    },
+    {
+      "part": "32015",
+      "qty": 12,
+      "page": 179
+    },
+    {
+      "part": "32014",
+      "qty": 8,
+      "page": 179
+    },
+    {
+      "part": "6536",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "42003",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32184",
+      "qty": 6,
+      "page": 180
+    },
+    {
+      "part": "32291",
+      "qty": 9,
+      "page": 180
+    },
+    {
+      "part": "41678",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "63869",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32557",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "x346",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "2825",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "33299",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "15100",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "22961",
+      "qty": 3,
+      "page": 180
+    },
+    {
+      "part": "10197",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "57585",
+      "qty": 8,
+      "page": 180
+    },
+    {
+      "part": "32138",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "48989",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "55615",
+      "qty": 1,
+      "page": 180
+    },
+    {
+      "part": "41677",
+      "qty": 6,
+      "page": 180
+    },
+    {
+      "part": "6632",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32449",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "11478",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "99773",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32249",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32250",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32056",
+      "qty": 12,
+      "page": 180
+    },
+    {
+      "part": "64782",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "60483",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "43857",
+      "qty": 1,
+      "page": 180
+    },
+    {
+      "part": "32523",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32316",
+      "qty": 8,
+      "page": 180
+    },
+    {
+      "part": "32524",
+      "qty": 10,
+      "page": 180
+    },
+    {
+      "part": "40490",
+      "qty": 6,
+      "page": 180
+    },
+    {
+      "part": "32525",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "41239",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32278",
+      "qty": 3,
+      "page": 180
+    },
+    {
+      "part": "60484",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32140",
+      "qty": 7,
+      "page": 180
+    },
+    {
+      "part": "32526",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "32348",
+      "qty": 4,
+      "page": 180
+    },
+    {
+      "part": "6629",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32271",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "32009",
+      "qty": 2,
+      "page": 180
+    },
+    {
+      "part": "3700",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "32064",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3701",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3894",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "2730",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3666",
+      "qty": 3,
+      "page": 181
+    },
+    {
+      "part": "3460",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3022",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3020",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3034",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3031",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3032",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3035",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "3030",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3958",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3028",
+      "qty": 2,
+      "page": 181
+    },
+    {
+      "part": "2431",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "4589b",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "4032",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "14769",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "2654",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3941",
+      "qty": 3,
+      "page": 181
+    },
+    {
+      "part": "3942c",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3040",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3004",
+      "qty": 1,
+      "page": 181
+    },
+    {
+      "part": "3010",
+      "qty": 4,
+      "page": 181
+    }
+  ]
+}
