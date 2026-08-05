@@ -1,0 +1,17 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # The whole repo is stdlib-only Python; the build must reproduce the
+      # committed generated files byte-for-byte, or the PR is out of sync.
+      - run: make
+      - run: git diff --exit-code
+      - run: make check
